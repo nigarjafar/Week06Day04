@@ -1,0 +1,53 @@
+#team{
+    padding:100px 0px;
+    background-color:$main-color;
+    .team-member{
+                height:auto;
+                div:first-child{
+                    height: 276px;
+                    padding-top:120px;
+                    background-color:$second-color;
+                    span{
+                        text-transform: uppercase;
+                        color:white;
+                        font-size: 18px;
+                        font-weight: 700;
+                    }
+                }
+                div:last-child{
+                    height: 122px;
+                    padding:30px;
+                    background-color:white;
+                    span:first-child{
+                        font-size: 14px;
+                        text-transform:uppercase;
+                        font-weight: 700;
+                    }
+                    span:nth-child(3){
+                        color: $fourth-color;
+                        font-size:14px;
+                    }
+                    i{
+                        font-size:14px;
+                        color:lighten($second-color, 10%);
+                        padding:10px 10px 0 0;
+                    }
+            }
+        
+            &:hover{
+                div:nth-child(2){
+                    background-color:$third-color;
+                    color:black;
+                    span{
+                        color:black;
+                    }
+                    i{
+                        color:white;
+                    }
+                }
+            }
+    
+    }
+            
+
+}

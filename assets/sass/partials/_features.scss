@@ -1,0 +1,46 @@
+#features{
+    position:relative;
+    padding:100px 0;
+    border-bottom:1px solid lighten($second-color,35%);
+    .row{
+        margin-top:60px;
+        div{
+            i{
+                float:left;
+                margin-right:30px;
+                margin-bottom:20px;
+                padding:12px 0px;
+                background-color:$main-color;
+                width:68px;
+                height: 68px;
+                &:hover{
+                    color:white;
+                    background-color:$fourth-color;
+                }
+            }
+        }
+        
+    }
+    .triangleOne{
+        width:0px;
+        height:0px;
+        border-bottom:110px solid $fourth-color;
+        border-right:70px solid transparent;
+        border-left: 70px solid transparent;
+        position:absolute;
+        bottom:0px;
+        right:0px;
+    }
+     .triangleTwo{
+        width:0px;
+        height:0px;
+        border-bottom:79px solid $third-color;
+        border-right:53px solid transparent;
+        border-left: 53px solid transparent;
+        position:absolute;
+        bottom:0px;
+        right:100px;
+    }
+    
+     
+}

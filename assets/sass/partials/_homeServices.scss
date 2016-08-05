@@ -1,0 +1,34 @@
+#services{
+    padding-top:100px;
+    .rectangle{
+        height: 301px;
+        background-color:$second-color;
+        color:white;
+        margin-top:50px;
+        text-transform: uppercase;
+
+        div{
+          
+           padding-top:120px;
+            span{
+                font-size: 30px;
+                font-weight: 700;
+            }
+        }
+    }
+    .startup{
+        margin-bottom:55px;
+        i{
+                float:left;
+                margin-right:30px;
+                margin-bottom:20px;
+                padding:12px 0px;
+                background-color:$main-color;
+                width:68px;
+                height: 68px;
+                &:hover{
+                    color:white;
+                    background-color:$fourth-color;
+        }       }
+    }
+}

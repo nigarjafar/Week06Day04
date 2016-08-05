@@ -1,0 +1,62 @@
+#home2{
+    #clients{
+        
+        background:$fourth-color;
+        padding:90px 0px;
+        h3{
+            background:$text-color;
+        }
+        h1{
+            margin-bottom:20px;
+        }
+        .circle{
+            color:white;
+            border-radius:50%;
+            padding:15px;
+            border:1px solid white;
+            margin-bottom:25px;
+        }
+        .row{
+            p{
+                font-family: 'Harmattan', sans-serif;
+                font-size:17px;
+                font-style: italic;
+                margin-bottom:40px;
+            }
+            span{
+                font-size: 14px;
+                text-transform:uppercase;
+                font{
+                    font-weight: 700;
+                }
+            }
+            .col-md-1:last-child{
+                i{
+                   padding-top:70px;
+                }
+            }
+ 
+        }
+        .hexagon{
+            padding-top:25px;
+            width:190px;
+            margin: 0 auto;
+            display:flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+            img{
+                &:nth-child(4){
+                    margin-left:30px;
+                    margin-top:-10px;
+                
+                }
+                &:last-child{
+                    margin-right:30px;
+                    margin-top:-10px;
+                }
+            }
+            }
+    
+    }
+}

@@ -1,0 +1,114 @@
+#footer{
+    
+    #summary{
+        
+        .summaryTop{
+                height:auto;
+                padding:100px 0px;
+                border-bottom:1px solid lighten($second-color,35%);
+                h1{
+                    font-size: 30px;
+                    font{
+                        color:$fourth-color;
+                    }
+                }
+                h6{
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+                button{
+                    width:141px;
+                    height:38px;
+                    border-radius:20px;
+                    text-transform: uppercase;
+                    color:white;
+                    margin:30px 8px;
+                    font-size:14.5px;
+                    &:nth-child(3){
+                        background-color:$third-color;
+                    }
+                    &:last-child{
+                        background-color:$fourth-color;
+                    }
+                }
+        }
+        .summaryBottom{
+            padding:60px 0px;
+            position:relative;
+            font-size: 14px;
+            text-transform:uppercase;
+            line-height: 35px;
+            font-weight:400;
+            color:lighten($second-color,10%);
+             border-bottom:1px solid lighten($second-color,35%);
+                h2{
+                font-size: 18px;
+                margin-bottom:25px;
+                font-weight: 500;
+                color:black;
+                }
+                img{
+                    margin-top:20px;
+                }
+                span{
+
+                    font{
+                        color:black;
+                    }
+                }
+                ul{
+                    list-style-type:none;
+                    padding-left:0px;
+                    i{
+                        margin-left: 5px;
+                    }
+                }
+
+                .input-group{
+                    text-transform: uppercase;
+                    margin-top:7px;
+                    input{
+                        line-height: 24px;
+                        padding:20px 11px;
+                        border-radius:0;
+                    }
+                    button{
+
+                        height: 42px;
+                        width: 42px;
+                        background-color:$third-color;
+                        color:white;
+                        border-radius:0px;
+                    } 
+                }
+                .triangleOne{
+                    height:0px;
+                    width:0px;
+                    border-right:150px solid transparent;
+                    border-bottom:335px solid $fourth-color;
+                    margin-left:-15px;
+                    position:absolute;
+                    bottom:0px;
+                }
+            }
+    }
+    #copyright{
+        padding:10px 0px 60px 0px;
+        position:relative;
+        font-size: 14px;
+        line-height: 35px;
+        text-transform: uppercase;
+        color:lighten($second-color,10%);
+        
+        .triangleTwo{
+            height:0px;
+            width:0px;
+            border-left:200px solid transparent;
+            border-bottom:350px solid $third-color;
+            margin-right:-15px;
+            position:absolute;
+            bottom:0px;
+            right:0px;
+        }
+    }
+}

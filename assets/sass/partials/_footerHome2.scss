@@ -1,0 +1,25 @@
+#home2{
+    
+    #footer{
+        background:$fifth-color;
+        .summaryBottom{
+            border-color:$second-color !important;
+        }
+        
+        input{
+            background:$fifth-color;
+            border-color:$second-color;
+        }
+        button{
+            background-color:$fourth-color !important;
+        }
+        h2,font{
+            color:lighten($second-color,20%) !important;
+        }
+        
+        span,li{
+            color:$second-color !important;
+        }
+        
+    }
+}

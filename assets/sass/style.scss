@@ -1,0 +1,102 @@
+//Footer buttonlara class ver
+@import 'partials/variables';
+body{
+    font-family: 'Karla';
+    letter-spacing: 1px;
+    color:$text-color;
+}
+
+.col-centered{
+    float:none;
+    margin: 0 auto;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin:0 0 3px 0;
+    padding:0px;
+}
+
+h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom:30px;
+    margin-top:0px;
+}
+
+h6{
+    font-weight: 500;
+    font-size: 20px;
+    margin:0;
+    
+}
+
+p{
+    font-size: 14px;
+    margin:5px 0px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    
+}
+
+.button-custom{
+    text-align:center;
+    height:38px;
+    width:140px;
+    border-radius:20px;
+    text-transform: uppercase;
+    color:white;
+    font-size:14.5px;
+    background-color:$third-color;
+    &:hover{
+        color:white;
+    }
+                    
+};
+
+.pageSlider{
+    background-color:$second-color;
+    padding:110px;
+    margin-bottom:100px;
+    color:white;
+    text-transform: uppercase;
+    span{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h6{
+        font-size: 14px;
+    }
+}
+
+
+
+@import 'partials/header';
+@import 'partials/slider';
+@import 'partials/homeServices';
+@import 'partials/footer';
+@import 'partials/_team';
+@import 'partials/_pricing';
+@import 'partials/_clients';
+@import 'partials/_features';
+@import 'partials/_success';
+@import 'partials/_contactform';
+@import 'partials/_blogLeftColumn';
+@import 'partials/_topHome2';
+@import 'partials/_footerHome2';
+@import 'partials/_home2details';
+@import 'partials/_clients_home2';
+@import 'partials/_blogHome2';
+@import 'partials/_sliderHome2';
+@import 'pages/_services';
+@import 'pages/_portfolio';
+@import 'pages/_about';
+@import 'pages/_newsdetails';
+@import 'pages/_news';
+@import 'pages/_contact';
+@import 'pages/_services_two';
+@import 'pages/_blog';
+@import 'pages/_blog_post';

@@ -1,0 +1,39 @@
+#contactForm{
+            padding:75px 0px;
+
+            .col-md-6{
+                &:first-child{
+                    padding-right:8px;
+                }
+                 &:last-child{
+                    padding-left:8px;
+                }
+            }
+            h5{
+                text-transform:uppercase;
+                font-size: 25px;
+                font-weight: 700;
+                
+            }
+            .form-inline{
+                
+                input,textarea{
+                    text-transform:uppercase;
+                    font-size: 13px;
+                    padding:20px;
+                    width:100%;
+                    border-radius:0;
+                    background-color:$main-color;
+                    border:none;
+                    box-shadow:none;
+                    margin:8px 0px;
+                }
+                input{
+                    height:48px;
+                }
+                
+                button{
+                    margin-top:16px;
+                }
+            }
+        }

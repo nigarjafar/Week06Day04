@@ -1,0 +1,59 @@
+#pricing{
+    
+    padding:100px 0px;
+    .price{
+       
+        div{
+            padding:17px 0px;
+            height:422px;
+            border:1px solid lighten($second-color, 40%);
+            position:relative;
+            transition: all 0.3s ease;
+             &:hover{
+            box-shadow: 0px 0px 137px -11px rgba(0,0,0,0.4);
+        }
+            h1{
+                font-weight: 700;
+                font-size: 20px;
+                text-transform:uppercase;
+                padding:15px;
+                margin:0px;
+            }
+            h2{
+                font-size: 18px;
+                color:darken($second-color,10%);
+                border-top:1px solid lighten($second-color, 40%);
+                border-bottom:1px solid lighten($second-color, 40%);
+                padding:20px 0;
+                margin:0px;
+                font{
+                    color:$fourth-color;
+                }
+            }
+            ul{
+                list-style-type:none;
+                padding:0;
+                padding-top:40px;
+                li{
+                    font-size: 15px;
+                    color:darken($second-color, 20%);
+                    line-height: 36px;
+                    letter-spacing:0px;
+                }
+            }
+            .button-custom{
+                position:absolute;
+                bottom:37px;
+                left:calc(50% - 70px);
+                
+                
+            }
+            img{
+                position:absolute;
+                top:0px;
+                left:0px;
+            }
+            
+        }
+    }
+}

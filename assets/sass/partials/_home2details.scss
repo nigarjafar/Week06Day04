@@ -1,0 +1,86 @@
+#home2{
+    h3{
+        background:$fourth-color;
+        padding:3px 5px;
+        color:white;
+        font-size:13px;
+        text-transform: uppercase;
+        margin-bottom:4px;
+        display:inline-block;
+    }
+    h1{
+        margin-bottom:40px;
+    }
+    button{
+        border-radius: 3px;
+        background:$fourth-color;
+    }
+    //Top
+    #home2{
+        #top{
+        background-color: $fifth-color;
+        line-height:40px;
+        color:$second-color;
+            font{
+                color:lighten($second-color,20%);
+            }
+        } 
+    }
+    //What We Are
+    #whatWeAre{
+    padding:100px 0px;
+        .row{
+            img{
+                width:100%;
+            }
+            .col-md-6:last-child{
+                padding-top:25px;
+                text-align:left;
+                button{
+                    margin-top:50px;
+                }
+            }
+        }
+    }
+    
+    //Features(Services)
+    #features{
+        background:$main-color;
+        .row{
+            text-align:left;
+            i{
+                border:1px solid $text-color;
+                &:hover{
+                    background:$third-color;
+                    color:white;
+                    border:none;
+                }
+            }
+        }
+    }
+    //Pricing
+    #pricing{
+        .price{
+            margin-bottom:24px;
+            button{
+                bottom:-23px;
+            }
+            &:hover{
+                button{
+                    background-color:$third-color;
+                }
+            }
+        }  
+    }
+    
+    //Team
+    #team{
+        .row{
+            margin-top:70px;
+            .team-member{
+                text-align:left;
+            }
+        }
+    }
+    
+}

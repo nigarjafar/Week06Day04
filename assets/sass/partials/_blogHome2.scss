@@ -1,0 +1,55 @@
+#blogHome2{
+    padding:100px 0px;
+    div:nth-child(3){
+        background-color:$second-color;
+        padding:170px 0px;
+        position:relative;
+        span{
+            font-size: 30px;
+            color:white;
+            text-transform:uppercase;
+        }
+        div{
+            position:absolute;
+            background-color:$third-color;
+            width: 83px;
+            height: 83px;
+            
+            top:0;
+            span{
+                color:white;
+                font-size:15px;
+                font{
+                    font-size:40px;
+                    font-weight:bold;
+                }
+            }
+        }
+    }
+    div:last-child{
+        .col-md-10{
+            position:relative;
+            h5{
+                font-size: 20px;
+                font-weight: 500;
+                margin:40px 0px;
+            }
+            button{
+                margin-top:50px;
+            }
+            div{    
+                position:absolute;
+                right:0;
+                top:40px;
+
+                span{
+                    text-transform: uppercase;
+                }
+                i{
+                    color:$fourth-color;
+                    padding-left:35px;
+                }
+            }
+        }
+    }
+}

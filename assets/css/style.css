@@ -731,7 +731,7 @@ p {
     #home2 #slider .container-fluid .button-right {
       right: 90px; }
     #home2 #slider .container-fluid .button-left {
-      left: 90px; }
+      left: calc(50% - 585px) }
     #home2 #slider .container-fluid .button-right, #home2 #slider .container-fluid .button-left {
       border: none;
       width: 38px;
@@ -739,6 +739,7 @@ p {
       position: absolute;
       top: 395px;
       text-align: center;
+      background:transparent;
       padding: 6px 0; }
 
 #servicePage .serviceInform {

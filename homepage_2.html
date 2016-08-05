@@ -375,6 +375,7 @@
 </div>
 
 <script>
+//****************************Slider****************
     imgArr=["images/bg1.jpg" ,"images/bg2.jpg","images/bg3.jpg","images/bg4.jpg"]
     buttonArr=["Contact Us", "About Us" , "Follow Us" , "Work with Us"]
     h6Arr=["Boost up", "Everything you dream","Make real","We are"]
@@ -407,6 +408,39 @@
         document.getElementById("slider").getElementsByTagName('button')[0].innerHTML=buttonArr[i]
         document.getElementById("slider").getElementsByTagName('h6')[0].innerHTML=h6Arr[i]
         document.getElementById("slider").getElementsByTagName('h1')[0].innerHTML=h1Arr[i]
+    }
+
+//*****************Clients*******************
+    reviewArr=["Aliquam suscipit urna in pellentesque condimentum.Donec eleifend convallis diam, in finibus nulla tempus et. Pellentesque scelerisque sapien eu porta suscipit. Quisque erat felis, sollicitudin a fermentum vel, elementum vel ligula. Mauris placerat viverra nunc, vel viverra est pretium sit amet.",
+
+        "Pellentesque vitae dignissim leo, sed ultrices neque. Fusce fermentum sapien mauris, non pretium arcu porttitor id. Nam tincidunt purus quam.Cras pulvinar placerat enim eget volutpat.Vivamus vel condimentum tellus. Curabitur in lacinia arcu. Morbi venenatis, est ac tincidunt maximus." ,
+
+        "Vivamus vel condimentum tellus. Curabitur in lacinia arcu. Morbi venenatis, est ac tincidunt maximus, leo nulla semper orci, ac tristique sapien magna vitae orci.Aliquam suscipit urna in pellentesque condimentum. Nunc imperdiet placerat neque a tempus.", 
+
+        "Mauris in diam vel urna egestas auctor sed et massa. Maecenas sodales porta urna ac iaculis. Mauris nec dictum odio. Nulla facilisi. Vivamus vehicula lobortis ipsum ut venenatis.Pellentesque scelerisque sapien eu porta suscipit. Quisque erat felis, sollicitudin a fermentum vel, elementum vel ligula. Mauris placerat viverra nunc, vel viverra est pretium sit amet",
+
+        "Cras pulvinar placerat enim eget volutpat.Vivamus vel condimentum tellus. Curabitur in lacinia arcu. Morbi venenatis, est ac tincidunt maximus.Nunc imperdiet placerat neque a tempus.Mauris in diam vel urna egestas auctor sed et massa. Curabitur vel nisi quis elit rutrum sollicitudin. Sed ante lectus, vulputate vitae porta in, pharetra eget odio.", 
+
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type                         specimen book. It has survived not only five centuries." ]
+
+    clientsArr=["John Carbonaro","Helen Granert", "Kerry Leipnik","Mark Mocellin","Kevin Alon","Sunitha Danial"]
+    console.log(reviewArr.length)
+     console.log(clientsArr.length)
+
+    
+    setInterval(changeClientReviews, 5000);
+          
+
+    var i=0;
+    function changeClientReviews(){
+        if(i>clientsArr.length-1)
+        {
+            i=0;
+        }
+        document.getElementById("clients").getElementsByTagName('p')[0].innerHTML=reviewArr[i];
+        document.getElementById("clients").getElementsByTagName('font')[0].innerHTML=clientsArr[i];
+        i++;
+        
     }
 </script>
 </body>
